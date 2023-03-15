@@ -1,0 +1,44 @@
+.card {
+        border: none;
+        border-radius: 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+        font-size: 1.25rem;
+}
+
+.card-subtitle {
+        font-size: 1rem;
+}
+
+@media (min-width: 576px) {
+        .col-sm-6 {
+                flex: 0 0 50%;
+                max-width: 50%;
+        }
+}
+
+@media (min-width: 768px) {
+        .col-md-4 {
+                flex: 0 0 33.333%;
+                max-width: 33.333%;
+        }
+}
+
+.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+}
+
+.product {
+        margin: 10px;
+        padding: 10px;
+        border: 1px solid black;
+}
